@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking.com</title>
+<!--    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400;1,700&display=swap" rel="stylesheet">-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+  <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1"
+       xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <defs>
+          <symbol id="icon-checkmark" viewBox="0 0 20 20">
+              <path d="M0 11l2-2 5 5 11-11 2 2-13 13z"></path>
+          </symbol>
+          <symbol id="icon-user" viewBox="0 0 20 20">
+              <path d="M5 5c0-2.761 2.239-5 5-5s5 2.239 5 5v0 2c0 2.761-2.239 5-5 5s-5-2.239-5-5v0-2zM0 16.68c2.86-1.685 6.301-2.68 9.974-2.68 0.009 0 0.018 0 0.027 0h-0.001c3.64 0 7.060 0.97 10 2.68v3.32h-20v-3.32z"></path>
+          </symbol>
+          <symbol id="icon-calendar" viewBox="0 0 20 20">
+              <path d="M1 4c0-1.1 0.9-2 2-2h14c1.105 0 2 0.895 2 2v0 14c0 1.105-0.895 2-2 2v0h-14c-1.105 0-2-0.895-2-2v0-14zM3 6v12h14v-12h-14zM5 0h2v2h-2v-2zM13 0h2v2h-2v-2zM5 9h2v2h-2v-2zM5 13h2v2h-2v-2zM9 9h2v2h-2v-2zM9 13h2v2h-2v-2zM13 9h2v2h-2v-2zM13 13h2v2h-2v-2z"></path>
+          </symbol>
+          <symbol id="icon-location" viewBox="0 0 20 20">
+              <path d="M10 20s-7-9.13-7-13c0-3.866 3.134-7 7-7s7 3.134 7 7v0c0 3.87-7 13-7 13zM10 9c1.105 0 2-0.895 2-2s-0.895-2-2-2v0c-1.105 0-2 0.895-2 2s0.895 2 2 2v0z"></path>
+          </symbol>
+          <symbol id="icon-menu" viewBox="0 0 20 20">
+              <path d="M0 3h20v2h-20v-2zM0 9h20v2h-20v-2zM0 15h20v2h-20v-2z"></path>
+          </symbol>
+          <symbol id="icon-chevron-thin-down" viewBox="0 0 20 20">
+              <path d="M17.418 6.109c0.272-0.268 0.709-0.268 0.979 0s0.271 0.701 0 0.969l-7.908 7.83c-0.27 0.268-0.707 0.268-0.979 0l-7.908-7.83c-0.27-0.268-0.27-0.701 0-0.969s0.709-0.268 0.979 0l7.419 7.141 7.418-7.141z"></path>
+          </symbol>
+          <symbol id="icon-checkmark" viewBox="0 0 20 20">
+              <path d="M0 11l2-2 5 5 11-11 2 2-13 13z"></path>
+          </symbol>
+          <symbol id="icon-airplane" viewBox="0 0 32 32">
+              <path d="M24 19.999l-5.713-5.713 13.713-10.286-4-4-17.141 6.858-5.397-5.397c-1.556-1.556-3.728-1.928-4.828-0.828s-0.727 3.273 0.828 4.828l5.396 5.396-6.858 17.143 4 4 10.287-13.715 5.713 5.713v7.999h4l2-6 6-2v-4l-7.999 0z"></path>
+          </symbol>
+          <symbol id="icon-arrow_forward_ios" viewBox="0 0 20 20">
+              <path d="M4.883 3.438l1.797-1.758 8.32 8.32-8.32 8.32-1.797-1.758 6.602-6.563z"></path>
+          </symbol>
+          <symbol id="icon-comment-o" viewBox="0 0 28 28">
+              <path d="M14 6c-6.5 0-12 3.656-12 8 0 2.328 1.563 4.547 4.266 6.078l1.359 0.781-0.422 1.5c-0.297 1.109-0.688 1.969-1.094 2.688 1.578-0.656 3.016-1.547 4.297-2.672l0.672-0.594 0.891 0.094c0.672 0.078 1.359 0.125 2.031 0.125 6.5 0 12-3.656 12-8s-5.5-8-12-8zM28 14c0 5.531-6.266 10-14 10-0.766 0-1.531-0.047-2.266-0.125-2.047 1.813-4.484 3.094-7.187 3.781-0.562 0.156-1.172 0.266-1.781 0.344h-0.078c-0.313 0-0.594-0.25-0.672-0.594v-0.016c-0.078-0.391 0.187-0.625 0.422-0.906 0.984-1.109 2.109-2.047 2.844-4.656-3.219-1.828-5.281-4.656-5.281-7.828 0-5.531 6.266-10 14-10v0c7.734 0 14 4.469 14 10z"></path>
+          </symbol>
+          <symbol id="icon-lifebuoy" viewBox="0 0 32 32">
+              <path d="M16 0c-8.837 0-16 7.163-16 16s7.163 16 16 16 16-7.163 16-16-7.163-16-16-16zM10 16c0-3.314 2.686-6 6-6s6 2.686 6 6-2.686 6-6 6-6-2.686-6-6zM28.937 21.359v0l-5.544-2.297c0.391-0.943 0.608-1.977 0.608-3.062s-0.216-2.119-0.608-3.062l5.544-2.297c0.685 1.651 1.063 3.46 1.063 5.359s-0.379 3.708-1.063 5.359v0zM21.359 3.063v0 0l-2.297 5.544c-0.943-0.391-1.977-0.607-3.062-0.607s-2.119 0.216-3.062 0.607l-2.297-5.544c1.651-0.684 3.46-1.063 5.359-1.063s3.708 0.379 5.359 1.063zM3.063 10.641l5.544 2.297c-0.391 0.943-0.608 1.977-0.608 3.062s0.216 2.119 0.607 3.062l-5.544 2.297c-0.685-1.651-1.063-3.46-1.063-5.359s0.379-3.708 1.063-5.359zM10.641 28.937l2.297-5.544c0.943 0.391 1.977 0.608 3.062 0.608s2.119-0.216 3.062-0.608l2.297 5.544c-1.651 0.684-3.46 1.063-5.359 1.063s-3.708-0.379-5.359-1.063z"></path>
+          </symbol>
+      </defs>
+  </svg>
+
+
+  <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+
+</html>
