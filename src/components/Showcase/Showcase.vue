@@ -13,25 +13,25 @@
 </template>
 
 <script>
-import ShowcaseLinks from "@/components/views/Showcase/ShowcaseLinks.vue";
-import ShowcaseStoreLinks from "@/components/views/Showcase/ShowcaseStoreLinks.vue";
-import ShowcaseSearch from "@/components/views/Showcase/ShowcaseSearch.vue";
+import ShowcaseSearch from "@/components/Showcase/ShowcaseSearch.vue";
+import ShowcaseLinks from "@/components/Showcase/ShowcaseLinks.vue";
+import ShowcaseStoreLinks from "@/components/Showcase/ShowcaseStoreLinks.vue";
 
 export default {
   name: "TheShowcase",
   components: {
-    ShowcaseSearch,
     ShowcaseStoreLinks,
     ShowcaseLinks,
+    ShowcaseSearch,
   },
 };
 </script>
 
 <style lang="scss">
-@import "../../../assets/variable";
-@import "../../../assets/mixin";
+@import "../../assets/variable";
+@import "../../assets/mixin";
 .Showcase {
-  background: #083b87 url("../../../img/showcase_back.jpg") no-repeat center
+  background: #083b87 url("../../img/showcase_back.jpg") no-repeat center
     center/cover;
   color: white;
   padding-top: 80px;

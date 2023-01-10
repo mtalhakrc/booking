@@ -45,8 +45,8 @@ export default {
 </script>
 
 <style lang="scss">
-@import "../../../assets/variable";
-@import "../../../assets/mixin";
+@import "../../assets/variable";
+@import "../../assets/mixin";
 .Descriptions {
   margin-top: 50px;
   padding-top: 50px;

@@ -2,7 +2,7 @@
   <div class="Header">
     <div class="container">
       <a class="Header-logo" href="">
-        <img src="../../../img/site-logo.png" alt="booking.com logo" />
+        <img src="../../img/site-logo.png" alt="booking.com logo" />
       </a>
 
       <button @click="isShow = !isShow" type="button" class="Header-switch">
@@ -45,8 +45,8 @@ export default {
 </script>
 
 <style lang="scss">
-@import "../../../assets/variable";
-@import "../../../assets/mixin";
+@import "../../assets/variable";
+@import "../../assets/mixin";
 .Header {
   border-bottom: 1px solid #eee;
   height: 68px;

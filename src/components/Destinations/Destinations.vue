@@ -27,7 +27,7 @@
 </template>
 
 <script>
-import DestinationsCard from "@/components/views/Destinations/DestinationsCard.vue";
+import DestinationsCard from "@/components/Destinations/DestinationsCard.vue";
 
 export default {
   name: "TheDestinations",
@@ -36,8 +36,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import "../../../assets/variable";
-@import "../../../assets/mixin";
+@import "../../assets/variable";
+@import "../../assets/mixin";
 .Destinations {
   display: flex;
   justify-content: center;
@@ -65,7 +65,10 @@ export default {
     }
     &-item {
       margin-bottom: 30px;
-      flex-basis: 32%;
+      width: 100%;
+      @include mq("tablet") {
+        flex-basis: 32%;
+      }
 
       & + & {
       }
@@ -77,6 +80,7 @@ export default {
   &-all {
     height: 100%;
     position: relative;
+    width: 100%;
     &-button {
       background-color: $color-blue;
       color: white;
@@ -89,13 +93,17 @@ export default {
 }
 .icon {
   &-arrow {
-    position: relative;
-    top: 3px;
-    left: 30px;
-    width: 15px;
-    height: 15px;
-    fill: white;
-    stroke: white;
+    display: none;
+    @include mq("tablet") {
+      display: inline;
+      position: relative;
+      top: 3px;
+      left: 30px;
+      width: 15px;
+      height: 15px;
+      fill: white;
+      stroke: white;
+    }
   }
 }
 </style>

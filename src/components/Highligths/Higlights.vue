@@ -36,7 +36,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import "../../../assets/mixin";
+@import "../../assets/mixin";
 .Highlights {
   //margin-bottom: 200px;
   margin-top: 50px;
@@ -54,7 +54,7 @@ export default {
     display: flex;
     flex-direction: column;
     justify-content: end;
-    background-image: url("../../../img/highlights-image.jpeg");
+    background-image: url("../../img/highlights-image.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     position: relative;

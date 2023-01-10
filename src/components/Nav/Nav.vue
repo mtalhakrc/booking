@@ -19,8 +19,8 @@ export default {
 </script>
 
 <style lang="scss">
-@import "../../../assets/variable";
-@import "../../../assets/mixin";
+@import "../../assets/variable";
+@import "../../assets/mixin";
 .Navbar {
   position: relative;
   height: 50px;

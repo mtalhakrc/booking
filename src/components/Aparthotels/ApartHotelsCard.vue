@@ -29,8 +29,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import "../assets/variable.scss";
-@import "../assets/mixin.scss";
+@import "../../assets/variable";
+@import "../../assets/mixin";
 .ApartHotelsCard {
   color: white;
   position: relative;
@@ -42,7 +42,7 @@ export default {
     display: block;
     width: 100%;
     height: 200px;
-    background: #083b87 url("../img/usa-photo.jpg") no-repeat center
+    background: #083b87 url("../../img/usa-photo.jpg") no-repeat center
       center/cover;
     position: relative;
   }

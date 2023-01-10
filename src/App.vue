@@ -6,7 +6,7 @@
 
 <script>
 import { defineComponent } from "vue";
-import MasterPage from "@/components/views/index.vue";
+import MasterPage from "@/views/index.vue";
 export default defineComponent({
   components: { MasterPage },
 });

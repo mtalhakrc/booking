@@ -3,16 +3,12 @@
     <a class="Store-links-item" href="">
       <img
         class="Store-links-item-apple"
-        src="../../../img/apple.svg"
+        src="../../img/apple.svg"
         alt="apple store link"
       />
     </a>
     <a class="Store-links-item" href="">
-      <img
-        class="Store-links-item-google"
-        src="../../../img/google.svg"
-        alt=""
-      />
+      <img class="Store-links-item-google" src="../../img/google.svg" alt="" />
     </a>
   </div>
 </template>
@@ -24,7 +20,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import "../../../assets/variable";
+@import "../../assets/variable";
 .Store-links {
   display: flex;
   justify-content: center;

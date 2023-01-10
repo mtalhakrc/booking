@@ -17,8 +17,8 @@ export default {
 </script>
 
 <style lang="scss">
-@import "../../../assets/mixin";
-@import "../../../assets/variable";
+@import "../../assets/mixin";
+@import "../../assets/variable";
 .Links {
   margin-top: 60px;
   .container {

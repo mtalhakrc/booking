@@ -14,10 +14,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import "../assets/mixin.scss";
-@import "../assets/variable.scss";
+@import "../../assets/mixin";
+@import "../../assets/variable";
 .DiscoverCard {
-  background-image: url("../img/usa-photo.jpg");
+  background-image: url("../../img/usa-photo.jpg");
   width: 280px;
   box-shadow: 0 5px 15px rgba(black, 0.2);
   height: 280px;

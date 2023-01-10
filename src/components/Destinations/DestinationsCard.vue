@@ -2,7 +2,7 @@
   <div class="Destinations-card">
     <img
       class="Destinations-card-image"
-      src="../../../img/destinations-card-image.jpg"
+      src="../../img/destinations-card-image.jpg"
       alt=""
     />
     <div class="Destinations-card-content">
@@ -40,8 +40,8 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import "../../../assets/variable";
-@import "../../../assets/mixin";
+@import "../../assets/variable";
+@import "../../assets/mixin";
 .Destinations-card {
   display: flex;
   //width: 400px;

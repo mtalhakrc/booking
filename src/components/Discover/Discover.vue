@@ -28,17 +28,17 @@
 </template>
 
 <script>
-import DiscoverCard from "@/components/DiscoverCard.vue";
+import DiscoverCard from "@/components/Discover/DiscoverCard.vue";
 
 export default {
-  name: "DiscoverComponent",
+  name: "TheDiscover",
   components: { DiscoverCard },
 };
 </script>
 
 <style scoped lang="scss">
-@import "../assets/mixin.scss";
-@import "../assets/variable.scss";
+@import "../../assets/mixin";
+@import "../../assets/variable";
 .Discover {
   margin-bottom: 50px;
   position: relative;

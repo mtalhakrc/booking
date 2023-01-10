@@ -66,8 +66,8 @@ export default {
 </script>
 
 <style lang="scss">
-@import "../../../assets/variable";
-@import "../../../assets/mixin";
+@import "../../assets/variable";
+@import "../../assets/mixin";
 .Search {
   padding: 30px;
   background-color: $color-yellow;
